@@ -1,0 +1,1 @@
+{"description":"Run Xray-core (VLESS+WS) on Velixir free tier; TLS is terminated by the Velixir edge.","engines":{"node":"24"},"license":"MIT","main":"server.js","name":"velixir-xray-node","scripts":{"postinstall":"node fetch-xray.js || true","start":"node server.js"},"version":"1.0.0"}
